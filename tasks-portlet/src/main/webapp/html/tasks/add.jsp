@@ -22,5 +22,7 @@
 	 	portletMode="view">
 	<portlet:param name="jspPage" value="/html/tasks/view.jsp" />	 
 </portlet:renderURL>
+
+<br /><br />
  
 <a href="${viewTaskUrl}">Back to tasks</a>
