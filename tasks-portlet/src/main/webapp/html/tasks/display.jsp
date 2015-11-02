@@ -6,7 +6,7 @@
 
 <portlet:renderURL var="addTaskUrl" windowState="normal" 
 	 	portletMode="view">
-	<portlet:param name="jspPage" value="/html/tasks/add.jsp" />	 
+	<portlet:param name="mvcPath" value="/html/tasks/add.jsp" />	 
 </portlet:renderURL>
 
 <b>Task name: </b> ${taskMap['taskName']}

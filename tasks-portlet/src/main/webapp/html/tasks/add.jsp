@@ -2,8 +2,7 @@
 
 <portlet:defineObjects />
 
-<portlet:actionURL var="addTaskActionURL" windowState="normal" name="addTask">
-</portlet:actionURL>
+<portlet:actionURL var="addTaskActionURL" windowState="normal" name="addTask" />
 
 <h1>Tasks Form</h1>
 
@@ -20,7 +19,7 @@
 
 <portlet:renderURL var="viewTaskUrl" windowState="normal" 
 	 	portletMode="view">
-	<portlet:param name="jspPage" value="/html/tasks/view.jsp" />	 
+	<portlet:param name="mvcPath" value="/html/tasks/view.jsp" />	 
 </portlet:renderURL>
 
 <br /><br />
